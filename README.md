@@ -1,4 +1,6 @@
-# spacex_rockets
+# Weather
+
+A Flutter application to display SpaceX rockets and mission details using their graphql api.
 
 ## Screenshots
 <p align="center">
@@ -11,15 +13,36 @@
   <img width="32%" src="demo/demo.gif?raw=true">
 </p>
 
-## Getting Started
+## Plugins
+- [graphql_flutter](https://pub.dev/packages/graphql_flutter)
+- [intl](https://pub.dev/packages/intl)
 
-This project is a starting point for a Flutter application.
+## Run Locally
 
-A few resources to get you started if this is your first Flutter project:
+Make sure that you have flutter and dart installed and setup.
+If you don't then refer to the official installation instructions at [Flutter Docs](https://flutter.dev/docs/get-started/install)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Then run the following commands
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the project
+
+```bash
+  git clone https://github.com/ramanverma2k/SpaceX
+```
+
+Go to the project directory
+
+```bash
+  cd SpaceX
+```
+
+Run the app
+
+```bash
+  flutter run
+```
+
+## Roadmap
+- Add a section for launches (upcoming, current, previous and etc).
+- Make Ui more consistent, modern and attractive.
+- Dark and Light theme.
