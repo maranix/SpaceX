@@ -20,10 +20,14 @@ class _MyAppState extends State<MyApp> {
       title: 'SpaceX missions',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+          brightness: Brightness.dark,
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
+          appBarTheme: AppBarTheme(
+            centerTitle: true,
+            elevation: 0,
+            backgroundColor: Colors.transparent,
+          )),
       home: HomeScreen(),
     );
   }
@@ -44,8 +48,6 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text(
           'SpaceX',
         ),
-        centerTitle: true,
-        elevation: 0,
       ),
       body: SafeArea(
         child: Center(
