@@ -3,9 +3,9 @@
 ## Screenshots
 <p align="center">
   <img width="32%" src="demo/home.jpg?raw=true">
-  <img width="32%" src="demo/rockets.png?raw=true">
-  <img width="32%" src="demo/rdetails.png?raw=true">
-  <img width="32%" src="demo/missions.png?raw=true">
+  <img width="32%" src="demo/rockets.jpg?raw=true">
+  <img width="32%" src="demo/rdetails.jpg?raw=true">
+  <img width="32%" src="demo/missions.jpg?raw=true">
 
   ### Demo
   <img width="32%" src="demo/demo.gif?raw=true">
