@@ -1,4 +1,4 @@
-# Weather
+# SpaceX
 
 A Flutter application to display SpaceX rockets and mission details using their graphql api.
 
